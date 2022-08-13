@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-navbar {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.navbar-list {
+  display: flex;
+  margin-left: 15rem;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.navbar-item {
+  font-size: 1.5rem;
+  color: #00ffff;
+}
+
+.navbar-item-link.connect {
+  padding: 0.5rem 1rem;
+  border: 1px solid;
+  border: none;
+  border-radius: 1rem;
+  background-color: rgb(90, 90, 134);
+  color: #fff;
+  margin-left: 13rem;
+}
+
+.self-content {
+  margin: 2rem;
+  margin-left: 3rem;
+  display: flex;
+  gap: 5rem;
+  justify-content: space-between;
+}
+
+.main-name {
+  font-size: 3rem;
+  color: rgb(97, 20, 220);
+}
+
+.main-role {
+  margin-top: -1.5rem;
+  font-size: 1.5rem;
+}
+
+.main-description {
+  margin-top: -0.5rem;
+  width: 50rem;
+  font-size: 1.5rem;
+}
+
+.completed-projects {
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+
+  margin-top: 2rem;
+}
+
+.projects-container {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  row-gap: 6rem;
+}
+
+.project-container {
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  border-radius: 10px;
+}
+
+.project-container img {
+  height: 250px;
+  width: 400px;
+}
+
+.project-name,
+.link-buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.project-image:hover {
+  transform: scale(1.1);
+}
+
+.link-buttons {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.projects-container button {
+  background: transparent;
+  border: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 8rem;
+  background-color: rgb(201, 125, 26);
+  border-radius: 1rem;
+}
+
+.netlify-button,
+.github-button {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.blogs-container {
+  margin-top: 3rem;
+}
+
+.blog-head {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.blog-description {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+.blog-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.blog-link:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.footer-content-text {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #000;
+  color: #fff;
+}
